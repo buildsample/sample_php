@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
-  <project name="/home/vidya/code/php-calculator">
+  <project name="/home/vidya/code/phpsample">
     <tests>
       <test name="CalculatorTest::testAdd" result="0" status="PASSED"/>
       <test name="CalculatorTest::testSubtract" result="0" status="PASSED"/>
       <test name="CalculatorTest::testMultiply" result="0" status="PASSED"/>
       <test name="CalculatorTest::testDivide" result="0" status="PASSED"/>
     </tests>
-    <directory name="/home/vidya/code/php-calculator">
+    <directory name="/home/vidya/code/phpsample">
       <totals>
         <lines total="29" comments="0" code="29" executable="12" executed="12" percent="100.00%"/>
         <methods count="4" tested="4" percent="100.00%"/>

@@ -7,6 +7,7 @@ before_script:
   - mkdir -p shippable/testresults
 
 script:
+   - sudo apt-get install php5-xdebug
    - phpunit  --log-junit shippable/testresults/junit.xml tests/calculator_test.php
    - phpunit --coverage-xml  shippable/codecoverage/ tests/calculator_test.php
   
