@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CalculatorTest" file="/home/vidya/code/php-calculator/tests/calculator_test.php" tests="4" assertions="4" failures="0" errors="0" time="0.002314">
+    <testcase name="testAdd" class="CalculatorTest" file="/home/vidya/code/php-calculator/tests/calculator_test.php" line="8" assertions="1" time="0.002016"/>
+    <testcase name="testSubtract" class="CalculatorTest" file="/home/vidya/code/php-calculator/tests/calculator_test.php" line="17" assertions="1" time="0.000103"/>
+    <testcase name="testMultiply" class="CalculatorTest" file="/home/vidya/code/php-calculator/tests/calculator_test.php" line="26" assertions="1" time="0.000100"/>
+    <testcase name="testDivide" class="CalculatorTest" file="/home/vidya/code/php-calculator/tests/calculator_test.php" line="35" assertions="1" time="0.000095"/>
+  </testsuite>
+</testsuites>

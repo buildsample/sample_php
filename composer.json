@@ -1,0 +1,18 @@
+{
+    "name": "php-sample",
+    "description": "simple calculator program in php.",
+    "keywords": ["multiply", "add", "subtract"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vidya"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*",
+        " xdebug": "2.1.3"
+    }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <project name="/home/vidya/code/php-calculator">
+    <tests>
+      <test name="CalculatorTest::testAdd" result="0" status="PASSED"/>
+      <test name="CalculatorTest::testSubtract" result="0" status="PASSED"/>
+      <test name="CalculatorTest::testMultiply" result="0" status="PASSED"/>
+      <test name="CalculatorTest::testDivide" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/home/vidya/code/php-calculator">
+      <totals>
+        <lines total="29" comments="0" code="29" executable="12" executed="12" percent="100.00%"/>
+        <methods count="4" tested="4" percent="100.00%"/>
+        <functions count="0" tested="0" percent=""/>
+        <classes count="1" tested="1" percent="100.00%"/>
+        <traits count="0" tested="0" percent=""/>
+      </totals>
+      <file name="calculator.php" href="calculator.php.xml">
+        <totals>
+          <lines total="29" comments="0" code="29" executable="12" executed="12" percent="100.00%"/>
+          <methods count="4" tested="4" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>

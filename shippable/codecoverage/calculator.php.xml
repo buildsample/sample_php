@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="calculator.php">
+    <totals>
+      <lines total="29" comments="0" code="29" executable="12" executed="12" percent="100.00%"/>
+      <methods count="4" tested="4" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Calculator" start="2" executable="12" executed="12" crap="6">
+      <package full="" name="" sub="" category=""/>
+      <namespace name=""/>
+      <method name="add" signature="add($numbers_to_add)" start="4" end="10" crap="2" executable="5" executed="5" coverage="100"/>
+      <method name="subtract" signature="subtract($x, $y)" start="12" end="14" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="multiply" signature="multiply($numbers_to_multiply)" start="16" end="22" crap="2" executable="5" executed="5" coverage="100"/>
+      <method name="divide" signature="divide($x, $y)" start="24" end="26" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="5">
+        <covered by="CalculatorTest::testAdd"/>
+      </line>
+      <line nr="6">
+        <covered by="CalculatorTest::testAdd"/>
+      </line>
+      <line nr="7">
+        <covered by="CalculatorTest::testAdd"/>
+      </line>
+      <line nr="8">
+        <covered by="CalculatorTest::testAdd"/>
+      </line>
+      <line nr="9">
+        <covered by="CalculatorTest::testAdd"/>
+      </line>
+      <line nr="13">
+        <covered by="CalculatorTest::testSubtract"/>
+      </line>
+      <line nr="17">
+        <covered by="CalculatorTest::testMultiply"/>
+      </line>
+      <line nr="18">
+        <covered by="CalculatorTest::testMultiply"/>
+      </line>
+      <line nr="19">
+        <covered by="CalculatorTest::testMultiply"/>
+      </line>
+      <line nr="20">
+        <covered by="CalculatorTest::testMultiply"/>
+      </line>
+      <line nr="21">
+        <covered by="CalculatorTest::testMultiply"/>
+      </line>
+      <line nr="25">
+        <covered by="CalculatorTest::testDivide"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>
