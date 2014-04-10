@@ -8,9 +8,7 @@ before_script:
 
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml tests/calculator_test.php
- # - phpunit tests/calculator_test.php --coverage-xml assets/coverage-report
-  
-  - phpunit --coverage-xml  shippable/codecoverage/ tests/calculator_test.php
+   - phpunit --coverage-xml  shippable/codecoverage/ tests/calculator_test.php
   
  
  # - phpunit calculator_test.php --coverage-xml  calculator_test.php
