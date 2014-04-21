@@ -3,14 +3,11 @@ language: php
 php: 
   - 5.4
 before_script: 
-  - mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
 
-install: sudo apt-get install php5-xdebug
 script:
-   #- sudo apt-get install php5-xdebug
    - phpunit  --log-junit shippable/testresults/junit.xml tests/calculator_test.php
-   - phpunit --coverage-xml  shippable/codecoverage/ tests/calculator_test.php
+
   
 notifications:
    email: false
