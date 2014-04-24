@@ -8,7 +8,6 @@ before_script:
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml tests/calculator_test.php
 
-  
 notifications:
    email: false
 
