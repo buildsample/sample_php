@@ -17,5 +17,8 @@ notifications:
    email: false
 
       
-before_script:
-  - curl -XPOST https://apibeta.shippable.com/projects/53a95d8adf44410e009dae89/build?token=$SHIPPABLE_API_TOKEN
+after_script:
+   #php-mongo
+  - curl -XPOST https://apibeta.shippable.com/projects/53bf610155a71a2200f19124/build?token=$SHIPPABLE_API_TOKEN
+  #php-mysql
+  - curl -XPOST https://apibeta.shippable.com/projects/53bf610355a71a2200f19126/build?token=$SHIPPABLE_API_TOKEN
