@@ -16,6 +16,7 @@ script:
 notifications:
    email: false
 
+archive: true
       
 after_script:
    #php-mongo
@@ -23,4 +24,3 @@ after_script:
   #php-mysql
   - curl -XPOST https://apibeta.shippable.com/projects/53bf610355a71a2200f19126/build?token=$SHIPPABLE_API_TOKEN
 
-reset_minion: true
