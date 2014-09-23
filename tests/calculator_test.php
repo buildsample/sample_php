@@ -35,7 +35,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase{
   public function testDivide(){
       $calc = new Calculator();
       $quotient = $calc->divide(10,2);
-      $this->assertEquals(5, $quotient); //check if 10/2 is equal to 5
+      $this->assertEquals(4, $quotient); //check if 10/2 is equal to 5
   }
 }
 ?>
