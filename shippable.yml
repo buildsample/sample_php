@@ -16,5 +16,10 @@ script:
 
 archive: true
      
-      
+parallelized_test: true  
+
+notifications:
+  email:
+    - buildsampletest@gmail.com 
+    
 
