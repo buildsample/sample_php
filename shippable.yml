@@ -18,5 +18,5 @@ archive: true
      
       
 branches:
-  only:
-   - test-master
+  except:
+   - master
