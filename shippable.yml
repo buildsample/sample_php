@@ -17,4 +17,6 @@ script:
 archive: true
      
       
-
+branches:
+  only:
+   - test-master
