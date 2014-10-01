@@ -9,6 +9,7 @@ php:
 before_script: 
   - mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
+  - php -v
 
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
