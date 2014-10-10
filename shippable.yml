@@ -17,8 +17,7 @@ script:
 
 archive: true
   
-     
-      
+
 branches:
   only:
     - master
@@ -32,4 +31,5 @@ notifications:
          on_failure: always
 
 parallelized_test: true
+
 cache: true
