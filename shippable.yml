@@ -32,4 +32,4 @@ notifications:
          on_failure: always
 
 parallelized_test: true
-cache :true
+cache: true
