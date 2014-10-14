@@ -4,7 +4,7 @@ php:
   #- 5.3
   - 5.4
   - 5.5
-  - 5.6
+#- 5.6
   
 before_script: 
   - mkdir -p shippable/codecoverage
@@ -19,6 +19,7 @@ archive: true
 
       
 after_script:
+  - echo "test"
    #php-mongo
   - curl -XPOST https://apibeta.shippable.com/projects/53bf610155a71a2200f19124/build?token=$SHIPPABLE_API_TOKEN
   #php-mysql
