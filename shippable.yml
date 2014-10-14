@@ -21,4 +21,4 @@ after_script:
   - echo "test"
   
 parallelized_test : true
-cache: true
+#cache: true
