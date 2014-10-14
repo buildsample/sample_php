@@ -16,14 +16,9 @@ script:
 archive: true
 
 
-
       
 after_script:
   - echo "test"
-   #php-mongo
-  - curl -XPOST https://apibeta.shippable.com/projects/53bf610155a71a2200f19124/build?token=$SHIPPABLE_API_TOKEN
-  #php-mysql
-  #- curl -XPOST https://apibeta.shippable.com/projects/53bf610355a71a2200f19126/build?token=$SHIPPABLE_API_TOKEN
-
+  
 parallelized_test : true
 cache: true
