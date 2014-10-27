@@ -15,6 +15,8 @@ script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
 
 
+after_script: cp README.md ./shippable
+
 archive: true
 
 branches:
@@ -31,6 +33,5 @@ notifications:
          on_failure: always
 
 parallelized_test: true
-
 
 cache: true
