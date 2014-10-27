@@ -16,7 +16,6 @@ script:
 
 
 archive: true
-  
 
 branches:
   only:
