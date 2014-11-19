@@ -10,14 +10,16 @@ before_script:
   - mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
 
+
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
 
 archive: true
 
+
 after_script:
   - echo "test"
-  
-  
+
+
 parallelized_test : true
 #cache: true
