@@ -1,5 +1,6 @@
 language: php
 
+
 php: 
   #- 5.3
   - 5.4
@@ -14,6 +15,7 @@ script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
 
 archive: true
+
 
 after_script:
   - echo "test"
