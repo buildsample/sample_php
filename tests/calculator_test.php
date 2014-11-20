@@ -8,7 +8,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase{
   public function testAdd(){
       $calc = new Calculator();
       $sum = $calc->add(array(2,3,4,5));
-      $this->assertEquals(15, $sum); //check if 2+3+4+5 is equal to 14
+      $this->assertEquals(14, $sum); //check if 2+3+4+5 is equal to 14
   }
 
   //test if the subtract() method in our calculator class
@@ -26,7 +26,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase{
   public function testMultiply(){
       $calc = new Calculator();
       $product = $calc->multiply(array(1,3,5,6));
-      $this->assertEquals(92, $product); //check if 1*3*5*6 is equal to 90
+      $this->assertEquals(90, $product); //check if 1*3*5*6 is equal to 90
   }
 
   //test if the divide() method in our calculator class
