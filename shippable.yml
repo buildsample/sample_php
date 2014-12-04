@@ -18,8 +18,11 @@ script:
 archive: true
 
 branches:
-  only:
-    - cache
+  #only:
+    #- cache
+   except:
+     - test_only
+    
     
 notifications:
      email:
