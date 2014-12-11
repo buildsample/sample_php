@@ -1,6 +1,6 @@
 language: php
 
-
+build_image: shippable/minv2:beta 
 
 php: 
   - 5.3
