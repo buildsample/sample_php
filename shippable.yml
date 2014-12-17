@@ -13,6 +13,8 @@ before_script:
 
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
+   - printf "This is a line without a newline at the end of it"
+   - echo -e "This is another line without a newline at the end\c"
 
 
 archive: true
@@ -20,8 +22,7 @@ archive: true
 branches:
   only:
     - cache
-   #except:
-    # - test_only
+    - test_only
     
     
     
