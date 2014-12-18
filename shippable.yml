@@ -17,9 +17,10 @@ script:
 
 archive: true
 
-branches:
-  only:
-    - cache
+
+#branches:
+ # only:
+  #  - cache
    #except:
     # - test_only
     
