@@ -32,6 +32,7 @@ notifications:
          on_failure: always
 
 parallelized_test: true
-
+after_success:
+  - git push -f git@heroku.com:sample-php.git push_heroku:master
 
 #cache: true
