@@ -19,10 +19,11 @@ script:
 
 archive: true
 
+
 branches:
   only:
     - cache
-    - test_only
+    
     
     
     
