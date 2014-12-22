@@ -21,8 +21,9 @@ archive: true
 
 
 branches:
-  only:
+  except:
     - cache
+    - exclude/branch
     
     
     
