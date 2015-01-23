@@ -1,7 +1,8 @@
 language: php
 
-build_image: shippable/minv2:beta 
-
+#build_image: shippable/minv2:beta 
+env:
+  - secure: GToiLQdBCtYXyrD+bTn/53IR1fOokMrZUpG5lPythCN+sXmMsmdd/dhjz8eGXOxtNk7pnlQs6/FCkZUFjGpaMD8IYeGEjmyWE1oYqtNW6/ZkHjj7gpa/lETNCq/QOPBUtFkS79JAK0B8AkkJpszt0NyuLGifIvRf6huBu6s0+V+kyDLFVtoDzfcqxqiILk4Ou6FQUqE0lZCU88IZbLB2x2YtNqo2tNGo0m7NUpWhn+T1fcSzyincX7TkjGdgmmzbOWomnq7G+fUyeRtMM4wmAy7Gh2pop3BccCHojYHdgb6mtnxIL2QOUn4bFXCS3MO2MHrQE/++Fd2HAvxny0gJRw==
 
 php: 
   - 5.3
