@@ -3,7 +3,7 @@ language: php
 php: 
  # - 5.3
   - 5.4
-  - 5.5
+ # - 5.5
  # - 5.6
   
 before_script: 
@@ -15,7 +15,7 @@ script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
 
 archive: true
-build_image: shippable/minv2:beta 
+#build_image: shippable/minv2:beta 
 
 after_script:
   - echo "test"
