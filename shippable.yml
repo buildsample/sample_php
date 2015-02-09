@@ -22,7 +22,7 @@ archive: true
 
 branches:
   only:
-    - cache
+    - master
     
     
     
