@@ -2,7 +2,10 @@ language: php
 
 #build_image: shippable/minv2:beta 
 env:
-  - secure: GToiLQdBCtYXyrD+bTn/53IR1fOokMrZUpG5lPythCN+sXmMsmdd/dhjz8eGXOxtNk7pnlQs6/FCkZUFjGpaMD8IYeGEjmyWE1oYqtNW6/ZkHjj7gpa/lETNCq/QOPBUtFkS79JAK0B8AkkJpszt0NyuLGifIvRf6huBu6s0+V+kyDLFVtoDzfcqxqiILk4Ou6FQUqE0lZCU88IZbLB2x2YtNqo2tNGo0m7NUpWhn+T1fcSzyincX7TkjGdgmmzbOWomnq7G+fUyeRtMM4wmAy7Gh2pop3BccCHojYHdgb6mtnxIL2QOUn4bFXCS3MO2MHrQE/++Fd2HAvxny0gJRw==
+  #beta
+  - secure: KRqfUVQS8NrKmbVp44LRNaq45a6l/48pu3Fxq1IhzEl/DrvkzZfIe+XaZV8JW9POB8cYFV3Iv2tUO1mZk9la9NPfza2KcagI2vFa/VYGLTZJ8eUtT36C+6UcAsjpKmrc+gS7/lJL/pJ8w9J+fJ1B5CXAIG6AI3FOJPTiRCcxAvzx+CDqsDDslsBuBcXYhwpwATDeEuajjHolW0Q8f9ptAB7FoSdL3HSRbo8EJXIsm+iYGs3kYzfZraFpJcuqD9Tp0zuIt61iIsJaZil3KSZc/X/p1Kr+qdSGV1vtaUIridi/+d+f4gjQuTFkzBbhMzl7fg6YKsyycddETwFbEmwuhw==
+  #prod
+  - secure: VstIhT+a1vLQpYNipHgN3yqmQHkB7r71UIgLyLhMbSj3yribSrhSVe9FrcjUJB62VvjmrPei8RFc39/Bty973lfrElDoGGdM1EuC+2VRKGL01YBUB2GNurdtFlJarjwdJmBx0EOmJ0iETQVhpENky4bhq30vK6NfKvHNzIzNXEY2w2Ovm4Maab0EPZ2sYaMssEN3XMJnfyLplzUkqXs2EOuEwUtSAA+fsZ+yARU4D90Nm0PMpzXxcHAAhVn/TIt66the2nZwoYaBYgNgP6LmQtPWHItvMHr+DKTcI0IvL1BpqcAAVJb9QfpmKkydY+tc4ex5bdDtsimF1KUy6oKwaA==
 
 php:
  # - 5.3
@@ -19,7 +22,7 @@ before_script:
 
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
-
+   - echo $prod and $beta
 
 archive: true
 
