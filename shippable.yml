@@ -13,7 +13,7 @@ php:
 install: true
 
 before_script: 
-  - mkdir -p shippable/codecoverage
+  #- mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
   - php -v
 
