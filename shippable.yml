@@ -11,7 +11,9 @@ before_script:
   - mkdir -p shippable/testresults
 
 script:
-   - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
+  - bash bash.sh
+  - ./bash.sh
+  - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
 
 notifications:
    email: false
