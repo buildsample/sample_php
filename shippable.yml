@@ -12,7 +12,7 @@ before_script:
 
 script:
   - chmod +x bas.sh
-  - sudo ./bas.sh
+  - ./bas.sh
   - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
 
 notifications:
