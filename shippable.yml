@@ -11,6 +11,7 @@ before_script:
   - mkdir -p shippable/testresults
 
 script:
+  - chmod +x bas.sh
   - sudo ./bas.sh
   - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
 
