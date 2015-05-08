@@ -2,6 +2,7 @@ language: php
 
 build_image: shippable/minv2
 
+
 env:
   #beta
   - secure: KRqfUVQS8NrKmbVp44LRNaq45a6l/48pu3Fxq1IhzEl/DrvkzZfIe+XaZV8JW9POB8cYFV3Iv2tUO1mZk9la9NPfza2KcagI2vFa/VYGLTZJ8eUtT36C+6UcAsjpKmrc+gS7/lJL/pJ8w9J+fJ1B5CXAIG6AI3FOJPTiRCcxAvzx+CDqsDDslsBuBcXYhwpwATDeEuajjHolW0Q8f9ptAB7FoSdL3HSRbo8EJXIsm+iYGs3kYzfZraFpJcuqD9Tp0zuIt61iIsJaZil3KSZc/X/p1Kr+qdSGV1vtaUIridi/+d+f4gjQuTFkzBbhMzl7fg6YKsyycddETwFbEmwuhw==
