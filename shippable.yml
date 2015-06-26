@@ -23,3 +23,8 @@ after_script:
 parallelized_test : true
 #cache: true
 
+after_success:
+ - echo "Build ran successfully"
+ 
+after_failure:
+ - echo "Build failed"
