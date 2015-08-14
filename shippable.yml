@@ -9,7 +9,7 @@ env:
   - secure: VstIhT+a1vLQpYNipHgN3yqmQHkB7r71UIgLyLhMbSj3yribSrhSVe9FrcjUJB62VvjmrPei8RFc39/Bty973lfrElDoGGdM1EuC+2VRKGL01YBUB2GNurdtFlJarjwdJmBx0EOmJ0iETQVhpENky4bhq30vK6NfKvHNzIzNXEY2w2Ovm4Maab0EPZ2sYaMssEN3XMJnfyLplzUkqXs2EOuEwUtSAA+fsZ+yARU4D90Nm0PMpzXxcHAAhVn/TIt66the2nZwoYaBYgNgP6LmQtPWHItvMHr+DKTcI0IvL1BpqcAAVJb9QfpmKkydY+tc4ex5bdDtsimF1KUy6oKwaA==
 
 php:
- # - 5.3
+  - 5.3
   - 5.4
   - 5.5
   - 5.6
