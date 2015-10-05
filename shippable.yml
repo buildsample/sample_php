@@ -22,6 +22,7 @@ archive: true
 branches:
   only:
     - master
+    - test_only
     
     
     
