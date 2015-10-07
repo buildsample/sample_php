@@ -28,3 +28,11 @@ after_success:
  
 after_failure:
  - echo "Build failed"
+
+notifications:
+  email:
+    recipients: 
+       - vidya@shippable.com
+      - buildsampletest@gmail.com
+    on_success: change
+    on_failure: always
