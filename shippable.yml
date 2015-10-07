@@ -26,9 +26,10 @@ script:
 
 archive: true
 
-#branches:
- # only:
-  #  - master
+branches:
+  only:
+    - master
+    - pr
 
     
 notifications:
