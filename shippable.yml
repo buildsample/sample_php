@@ -1,8 +1,4 @@
 language: php
-
-
-
-
 build_image: shippable/minv2
 
 env:
