@@ -10,7 +10,7 @@ env:
 
 php:
  # - 5.3
-  - 5.4
+ # - 5.4
   - 5.5
   - 5.6
  
@@ -37,8 +37,8 @@ notifications:
          recipients:
              - vidya@shippable.com
              - buildsampletest@gmail.com
-         on_success: change
-         on_failure: always
+         on_success: never
+         on_failure: never
 
 
 parallelized_test: true
