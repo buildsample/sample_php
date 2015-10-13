@@ -24,14 +24,7 @@ script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
    - echo $prod and $beta
 
-archive: true
 
-branches:
-  only:
-    - master
-    - pr
-
-    
 notifications:
      email:
          recipients:
