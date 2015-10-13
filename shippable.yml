@@ -2,6 +2,7 @@ language: php
 build_image: shippable/minv2
 
 env:
+  - secure: UkCCANqVtc/JnXvX37K+Y3uQb25jWNAKJB32tG9+GNTEfNzdR7RL5LG78pSooJ1wXgKBGJp/k0IXCBsjAaG7Kq2xQHBeG0QJ/xb8drSV9ReHSdoPMWCv1eT8E8p7vUC4u5qtw4bWn7DVewIdq+KT6pGAABbuohHypyyrcAZHAFwZmSIx7ykuCB/H7n2lvvZSv1W9H1d86AOfiCAVjVl+6fln9f629Y7eSxtgckaNnF+jkAsVD/nBnHkjCKec4ViE9LvTQklTjX6jjiY4XOiOHHne531osjmP/Ka5M6fcwwAiI9bxuAhOCbM4Llrn2j0PAtqhM/7xL8DXqyPEiZMhEw==
   #beta
   - secure: KRqfUVQS8NrKmbVp44LRNaq45a6l/48pu3Fxq1IhzEl/DrvkzZfIe+XaZV8JW9POB8cYFV3Iv2tUO1mZk9la9NPfza2KcagI2vFa/VYGLTZJ8eUtT36C+6UcAsjpKmrc+gS7/lJL/pJ8w9J+fJ1B5CXAIG6AI3FOJPTiRCcxAvzx+CDqsDDslsBuBcXYhwpwATDeEuajjHolW0Q8f9ptAB7FoSdL3HSRbo8EJXIsm+iYGs3kYzfZraFpJcuqD9Tp0zuIt61iIsJaZil3KSZc/X/p1Kr+qdSGV1vtaUIridi/+d+f4gjQuTFkzBbhMzl7fg6YKsyycddETwFbEmwuhw==
   #prod
@@ -22,7 +23,7 @@ before_script:
 
 script:
    - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
-   - echo $prod and $beta
+   - echo $prod and $beta and $token11
 
 archive: true
 
