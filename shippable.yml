@@ -1,5 +1,5 @@
 language: php
-build_image: shippable/minv2
+#build_image: shippable/minv2
 
 env:
   #beta
@@ -34,7 +34,7 @@ notifications:
          on_failure: always
 
 
-parallelized_test: true
+#parallelized_test: true
 
 
 #cache: true
