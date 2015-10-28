@@ -26,7 +26,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase{
   public function testMultiply(){
       $calc = new Calculator();
       $product = $calc->multiply(array(1,3,5,6));
-      $this->assertEquals(90, $product); //check if 1*3*5*6 is equal to 90
+      $this->assertEquals(9, $product); //check if 1*3*5*6 is equal to 90
   }
 
   //test if the divide() method in our calculator class
