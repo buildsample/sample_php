@@ -16,4 +16,3 @@ script:
   - ./bas.sh
   - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
 
-      
