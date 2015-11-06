@@ -14,8 +14,8 @@ php:
   - 5.5
   - 5.6
  
-#install: true
-
+before_install:
+  - shippable_retry 'if [ $i -eq 3 ]; then echo "done"; else foobar$i; fi'
 before_script: 
   #- mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
