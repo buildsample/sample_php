@@ -27,12 +27,7 @@ script:
 
 archive: true
 
-branches:
-  only:
-    - master
-    - pr
 
-    
 notifications:
      email:
          recipients:
