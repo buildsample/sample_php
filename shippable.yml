@@ -18,11 +18,11 @@ script:
 archive: true
 
 
-#branches:
- # only:
-  #  - cache
-   #except:
-    # - test_only
+branches:
+  only:
+    - test-only-pr
+  except:
+     - testingg
     
     
     
