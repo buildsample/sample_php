@@ -1,5 +1,5 @@
 language: php
-build_image: shippable/minv2
+#build_image: shippable/minv2
 
 env:
   - secure: UkCCANqVtc/JnXvX37K+Y3uQb25jWNAKJB32tG9+GNTEfNzdR7RL5LG78pSooJ1wXgKBGJp/k0IXCBsjAaG7Kq2xQHBeG0QJ/xb8drSV9ReHSdoPMWCv1eT8E8p7vUC4u5qtw4bWn7DVewIdq+KT6pGAABbuohHypyyrcAZHAFwZmSIx7ykuCB/H7n2lvvZSv1W9H1d86AOfiCAVjVl+6fln9f629Y7eSxtgckaNnF+jkAsVD/nBnHkjCKec4ViE9LvTQklTjX6jjiY4XOiOHHne531osjmP/Ka5M6fcwwAiI9bxuAhOCbM4Llrn2j0PAtqhM/7xL8DXqyPEiZMhEw==
