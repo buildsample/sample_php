@@ -16,3 +16,14 @@ script:
   - ./bas.sh
   - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
 
+
+notifications:
+ email:
+   recipients:
+     - "vidya@shippable.com"
+   on_success: always
+   on_failure: always
+ irc:
+   pull_requests: true
+   channels:  
+    - "chat.freenode.net#testchannel"
