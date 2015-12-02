@@ -18,11 +18,6 @@ script:
 
 
 notifications:
- email:
-   recipients:
-     - "chandrakanth@shippable.com"
-   on_success: always
-   on_failure: always
  irc:
    pull_requests: true
    channels:  
