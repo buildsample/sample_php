@@ -21,4 +21,4 @@ notifications:
  irc:
    pull_requests: true
    channels:  
-    - "chat.freenode.net#chandratesting"
+    - "chat.freenode.net#chandratest"
