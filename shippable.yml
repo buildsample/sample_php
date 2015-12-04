@@ -24,7 +24,7 @@ notifications:
   on_success: never
   on_failure: change
   on_start: always
-  pull_request: never
+  on_pull_request: never
  slack:
   account_integration: 566166f46cd02a9409820b90
   recipients:
