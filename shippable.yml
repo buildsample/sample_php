@@ -24,7 +24,7 @@ notifications:
   on_success: always
   on_failure: always
  slack:
- account_integration: 566166f46cd02a9409820b90
+  account_integration: 566166f46cd02a9409820b90
   recipients:
     - slacktest
   on_success: always
