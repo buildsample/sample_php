@@ -21,7 +21,7 @@ notifications:
  email:
   recipients:
     - chandrakanth@shippable.com
-  on_success: never
+  on_success: change
   on_failure: change
  slack:
   account_integration: 566166f46cd02a9409820b90
