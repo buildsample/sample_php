@@ -21,17 +21,19 @@ notifications:
  email:
   recipients:
     - chandrakanth@shippable.com
+    - vishal.chandru@gmail.com
+    - -- last_committer
   on_success: change
   on_failure: change
  slack:
-  account_integration: 566166f46cd02a9409820b90
+  account_integration: 566a834c53054c110048bf20
   recipients:
     - '#slacktest'
   on_success: never
   on_failure: change
   on_start: always
   on_pull_request: never
- irc:
-   pull_requests: true
-   channels:  
-    - "chat.freenode.net#chandratest"
+ #irc:
+  # pull_requests: true
+   #channels:  
+  #  - "chat.freenode.net#chandratest"
