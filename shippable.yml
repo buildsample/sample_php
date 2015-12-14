@@ -18,23 +18,23 @@ script:
 
 
 notifications:
- email:
-  recipients:
-    - chandrakanth@shippable.com
-    - vishal.chandru@gmail.com
-    - -- last_committer
-  on_success: change
-  on_failure: change
-  on_start: always
-  on_pull_request: never
+ #email:
+  #recipients:
+   # - chandrakanth@shippable.com
+    #- vishal.chandru@gmail.com
+    #- -- last_committer
+  #on_success: change
+  #on_failure: change
+  #on_start: always
+  #on_pull_request: never
  slack:
   account_integration: 566e4536b6bf9f1100524787
   recipients:
     - '#slacktestck'
-  on_success: never
-  on_failure: change
+  on_success: always
+  on_failure: always
   on_start: always
-  on_pull_request: never
+  on_pull_request: always
  #irc:
   # pull_requests: true
    #channels:  
