@@ -30,7 +30,7 @@ notifications:
  slack:
   account_integration: 566e4536b6bf9f1100524787
   recipients:
-    - '#slacktest'
+    - '#slacktestck'
   on_success: never
   on_failure: change
   on_start: always
