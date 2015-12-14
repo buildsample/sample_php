@@ -25,8 +25,10 @@ notifications:
     - -- last_committer
   on_success: change
   on_failure: change
+  on_start: always
+  on_pull_request: never
  slack:
-  account_integration: 566a834c53054c110048bf20
+  account_integration: 566e4536b6bf9f1100524787
   recipients:
     - '#slacktest'
   on_success: never
