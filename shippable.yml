@@ -28,9 +28,9 @@ notifications:
   #on_start: always
   #on_pull_request: never
  slack:
-  account_integration: 5672c0de7e5b451100282be4
+  account_integration: 5656d1abf598e60c00835e98
   recipients:
-    - '#slacktestck'
+    - '#prod'
   on_success: always
   on_failure: always
   on_start: always
