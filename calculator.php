@@ -1,12 +1,12 @@
 <?php
 class Calculator{
-  
+
   public function add($numbers_to_add){
-      $sum = 0;
-      foreach($numbers_to_add as $num){
-          $sum = $num + $sum;
-      }
-      return $sum;
+     if(is_array($numbers_to_add)) {
+         return array_sum($numbers_to_add);
+     }
+
+     throw  new UnexpectedValueException();
   }
 
   public function subtract($x, $y){
@@ -26,4 +26,3 @@ class Calculator{
   }
 
 }
-?>
