@@ -1,7 +1,8 @@
 <?php
 class Calculator{
   
-  public function add($numbers_to_add){
+  public function add(array $numbers_to_add): int
+  {
       $sum = 0;
       foreach($numbers_to_add as $num){
           $sum = $num + $sum;
@@ -9,11 +10,13 @@ class Calculator{
       return $sum;
   }
 
-  public function subtract($x, $y){
+  public function subtract(int $x, int $y): int
+  {
       return $x - $y;
   }
 
-  public function multiply($numbers_to_multiply){
+  public function multiply(array $numbers_to_multiply): int
+  {
       $product = 1;
       foreach($numbers_to_multiply as $num){
           $product = $num * $product;
@@ -21,7 +24,8 @@ class Calculator{
       return $product;
   }
 
-  public function divide($x, $y){
+  public function divide(int $x, int $y) : int|float
+  {
       return $x / $y;
   }
 
